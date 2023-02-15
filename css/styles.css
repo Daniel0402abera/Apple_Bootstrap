@@ -1,0 +1,452 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+
+
+/* Custom Css */
+
+/* First section */
+.header-below-wrapper{
+  margin-top: 65px;
+  background-color: whitesmoke;
+
+}
+
+.unicef-wrapper{
+  background-image: url("../Images/unicef/unicef_logo_dark__ejvlglygb3ee_small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 28px;
+}
+
+.link-wrapper{
+ font-size: 14px;
+ text-align: center;
+}
+
+.link-wrapper ul li{
+  list-style-type: none;
+}
+.link-wrapper ul li a {
+  
+  text-decoration: none;
+
+}
+
+
+.link-wrapper ul li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.content-wrapper {
+  background-image: url("../images/iphone-13/hero_iphone13_avail__gnqqkzuai6um_small.jpg");
+height: 548px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+/* 2nd section */
+
+/* Left side */
+
+.logo-ipadair{
+  background-image: url("../images/logo-ipad-air/promo_logo_ipadair__frwnnsqveeye_small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+
+}
+.description{
+  color: white;
+}
+
+.second-left-wrapper{
+  background-image: url("../images/iPad-air/promo_ipadair_avail__ferd4bfpcdm6_small.jpg");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+
+
+/* Right side */
+
+.macbook-description{
+  color: black;
+}
+
+.supercharged-logo{
+  background-image: url("../images/logo_promo-macbookair/logo_promo_macbookair__hy9ktdqqtv2a_small.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+}
+
+.second-right-wrapper {
+  background-image: url("../images/promo-macbookair/promo_macbookair__fywl7i82fueu_small.png");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+
+
+/* 3rd section */
+.mbp13{
+  background-image: url("../images/logo-promo-mbp13/logo_promo_mbp13__gnmug5nsag66_small.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 47px;
+}
+
+.mbp13-description{
+  color: white;
+}
+
+.third-left-wrapper {
+  background-image: url("../images/promo-mbp13/promo_mbp13__buwssod6c8vm_small.jpg");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+.watch-logo{
+  background-image: url("../images/logo-watch-series7/promo_logo_watch_lte__emrof7zzkriq_small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47px;
+}
+
+.third-right-wrapper{
+background-image: url("../images/watch-series-7/promo_watch_lte__djeaso7ukrsm_small.jpg");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+/* Media Query */
+
+
+/* medium */
+@media only screen and (min-width: 768px) {
+ 
+  .content-wrapper {
+      background-image: url("../images/iphone-13/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg");
+      height: 569px;
+    width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+    }
+
+.logo-ipadair {
+  background-image: url("../images/logo-ipad-air/promo_logo_ipadair__frwnnsqveeye_small_2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+
+}
+
+
+.second-left-wrapper {
+  background-image: url("../images/iPad-air/promo_ipadair_avail__ferd4bfpcdm6_medium_2x.jpg");
+  background-size: cover;
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+
+
+.supercharged-logo {
+  background-image: url("../images/logo_promo-macbookair/logo_promo_macbookair__hy9ktdqqtv2a_small_2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30px;
+}
+
+.second-right-wrapper {
+  background-image: url("../images/promo-macbookair/promo_macbookair__fywl7i82fueu_small_2x.png");
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.third-left-wrapper {
+  background-image: url("../images/promo-mbp13/promo_mbp13__buwssod6c8vm_medium_2x.jpg");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+.watch-logo {
+  background-image: url("../images/logo-watch-series7/promo_logo_watch_lte__emrof7zzkriq_sm");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47px;
+}
+
+.third-right-wrapper {
+  background-image: url("../images/watch-series-7/promo_watch_lte__djeaso7ukrsm_small.jpg");
+  background-size: cover;
+  height: 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+
+
+}
+
+
+/* large */
+
+@media only screen and (min-width: 992px) {
+
+  .content-wrapper {
+    background-image: url("../images/iphone-13/hero_iphone13_avail__gnqqkzuai6um_mediumtall_2x.jpg");
+    height: 1388px;
+    width: 100%;
+    /* width: 2136px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+    .logo-ipadair {
+      background-image: url("../images/logo-ipad-air/promo_logo_ipadair__frwnnsqveeye_medium_2x.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60px;
+  
+    }
+  
+  
+    .second-left-wrapper {
+      background-image: url("../images/iPad-air/promo_ipadair_avail__ferd4bfpcdm6_medium_2x.jpg");
+      background-size: cover;
+      height: 980px;
+      background-repeat: no-repeat;
+      background-color: black;
+  
+    }
+
+
+
+
+
+  
+}
+
+
+
+/*  Extra Large media Query */
+
+@media only screen and (min-width: 1200px) {
+
+  .content-wrapper {
+    background-image: url("../images/iphone-13/hero_iphone13_avail__gnqqkzuai6um_largetall_2x.jpg");
+    /* width: 3008px; */
+    width: 100%;
+    height: 736px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+}
+
+
+
+
+
+/* 2x large */
+
+@media only screen and ( min-width: 1400px){
+
+
+
+}
